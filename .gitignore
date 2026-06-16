@@ -1,0 +1,25 @@
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Configurações locais e segredos
+.env
+
+# Cache do Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Bancos de dados locais
+*.db
+*.sqlite3
+
+# Logs da aplicação
+logs/*.log
+
+# IDEs
+.vscode/
+.idea/
+.gemini/

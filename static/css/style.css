@@ -1,0 +1,56 @@
+/* Estilos Finos e Utilitários Customizados para a Bravvi Tec */
+
+/* Configuração refinada do Material Symbols */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+/* Estruturação de Grid Bento customizada */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+.bento-card {
+    grid-column: span 12;
+}
+
+@media (min-width: 768px) {
+    .bento-card-md-6 { grid-column: span 6; }
+    .bento-card-md-4 { grid-column: span 4; }
+    .bento-card-md-8 { grid-column: span 8; }
+}
+
+/* Sombra de luxo corporativa sutil */
+.luxury-shadow {
+    box-shadow: 0 10px 30px -15px rgba(0, 31, 86, 0.12);
+}
+
+/* Efeito de foco personalizado para inputs com transição suave */
+input, select, textarea {
+    transition: all 0.25s ease-in-out;
+}
+
+/* Animações de Scroll / Lazy loading das seções */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Efeitos de hover nos botões e cartões */
+.hover-lift {
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px -12px rgba(0, 31, 86, 0.16);
+}

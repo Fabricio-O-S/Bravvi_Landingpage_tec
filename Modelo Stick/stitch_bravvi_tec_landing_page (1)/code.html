@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="pt-br"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bravvi Tec | Liderando a Inovação que Define o Futuro</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;900&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline": "#747782",
+                        "surface-container-high": "#e6e8eb",
+                        "surface-container-low": "#f2f4f7",
+                        "surface": "#f7f9fc",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed": "#001848",
+                        "on-surface-variant": "#444650",
+                        "surface-bright": "#f7f9fc",
+                        "on-background": "#191c1e",
+                        "secondary-fixed": "#ffdad4",
+                        "surface-container": "#eceef1",
+                        "on-secondary-container": "#fffbff",
+                        "tertiary": "#401600",
+                        "primary-fixed-dim": "#b2c5ff",
+                        "surface-container-highest": "#e0e3e6",
+                        "on-primary-fixed-variant": "#254388",
+                        "surface-tint": "#405ca1",
+                        "on-primary-container": "#849fea",
+                        "secondary-container": "#e41f13",
+                        "on-surface": "#191c1e",
+                        "surface-variant": "#e0e3e6",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-container": "#e48c5d",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed": "#341100",
+                        "inverse-on-surface": "#eff1f4",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed": "#410000",
+                        "surface-dim": "#d8dadd",
+                        "background": "#f7f9fc",
+                        "secondary": "#bc0000",
+                        "tertiary-fixed": "#ffdbcb",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#622600",
+                        "on-secondary": "#ffffff",
+                        "primary-container": "#123478",
+                        "inverse-surface": "#2d3133",
+                        "on-secondary-fixed-variant": "#930000",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed": "#dae2ff",
+                        "on-tertiary-fixed-variant": "#75340c",
+                        "secondary-fixed-dim": "#ffb4a8",
+                        "inverse-primary": "#b2c5ff",
+                        "primary": "#001f56",
+                        "outline-variant": "#c4c6d2",
+                        "tertiary-fixed-dim": "#ffb692"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "container-max": "1280px",
+                        "margin-mobile": "20px",
+                        "stack-unit": "8px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Hanken Grotesk"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "body-lg": ["Inter"],
+                        "body-md": ["Inter"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .bento-card {
+            grid-column: span 12;
+        }
+        @media (min-width: 768px) {
+            .bento-card-md-6 { grid-column: span 6; }
+            .bento-card-md-4 { grid-column: span 4; }
+            .bento-card-md-8 { grid-column: span 8; }
+        }
+        .luxury-shadow {
+            box-shadow: 0 10px 30px -15px rgba(0, 31, 86, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="bg-surface-container-lowest border-b border-outline-variant sticky top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-8">
+<img alt="Bravvi Tec Logo" class="h-8 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4-26i8AwZqFwDpxkLd2ywvgwcR39BMo5YWnK2L9ZJ45keW2RJ03d56_YvPC1IsCMtyBZzZaJBT7N_0SOqxQw2QRvwoOZH_U4NYTDJwKK6AkbjFJ7DIYbes44MsfLST4dYw25TZSO9N2GdKbGDjAvfFsvTdCphuXApT_ld6I9oVH6Wuyf8LI7mFB7etIcFrF5wVU5Kkq4ozv8NkALO8fxPZrcn9UQXioA1OLh6NahLfYb2BiK6r7-HDdBiKs4PBrEqCB9VqDCQMjCg"/>
+<nav class="hidden md:flex gap-6 items-center">
+<a class="text-secondary border-b-2 border-secondary pb-1 font-bold text-label-sm font-label-sm" href="#">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="#">Insights</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="#">Industries</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="#">About</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:flex items-center text-on-surface-variant hover:text-secondary transition-all duration-200">
+<span class="material-symbols-outlined mr-1">public</span>
+<span class="text-label-sm font-label-sm">Global</span>
+</button>
+<a class="bg-secondary text-on-secondary px-6 py-3 rounded-DEFAULT font-bold text-label-sm font-label-sm uppercase tracking-wider hover:opacity-90 transition-opacity" href="#contact">
+                    Get in Touch
+                </a>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[80vh] flex items-center bg-white overflow-hidden">
+<div class="absolute inset-0 bg-[#001f56]/5"></div>
+<div class="max-w-container-max mx-auto px-margin-desktop w-full grid md:grid-cols-2 gap-12 items-center relative z-10 py-20">
+<div class="space-y-8 animate-fade-in">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-primary text-on-primary rounded-DEFAULT">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span class="text-label-sm font-label-sm uppercase tracking-widest">Future-Proof Innovation</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-primary max-w-xl">
+                        Bravvi Tec: Liderando a Inovação que Define o Futuro
+                    </h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-lg leading-relaxed">
+                        Ajudando empresas globais a prosperar no futuro que seus produtos estão inventando hoje. Estratégias de alto impacto para a era da inteligência artificial.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<a class="bg-primary text-on-primary px-8 py-4 rounded-DEFAULT font-bold text-label-sm font-label-sm uppercase tracking-wider flex items-center justify-center gap-2 hover:bg-primary-container transition-colors group" href="#sectors">
+                            Nossa Expertise
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="border border-primary text-primary px-8 py-4 rounded-DEFAULT font-bold text-label-sm font-label-sm uppercase tracking-wider flex items-center justify-center hover:bg-primary/5 transition-colors" href="#contact">
+                            Falar com um Consultor
+                        </a>
+</div>
+</div>
+<div class="relative hidden md:block">
+<div class="absolute -top-12 -right-12 w-64 h-64 bg-secondary/10 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+<div class="relative z-10 rounded-lg overflow-hidden border border-outline-variant bg-white p-4 luxury-shadow">
+<img alt="Technology Innovation" class="rounded w-full h-[500px] object-cover" data-alt="A high-end, professional photograph depicting a futuristic data visualization chamber where a corporate professional stands in silhouette against a massive, glowing holographic display of global connectivity maps and architectural technology blueprints. The lighting is dominated by deep Navy blues and stark whites with sharp red accents, reflecting a sophisticated, minimalist corporate aesthetic of authority and intelligence. The mood is powerful, visionary, and clean." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmq21d475M_D4G4W3ZUZGQVZ7awGnlfIGTB79rl7GBIlAbbFcw_2CODSuX6K0YnBUydLxqnCWUVgN9dsCC_BKqMcToocOuLvjHve0hAmXPFW5WVml1rSOpLkrTIF07dSIlQt4vSmWYCi-B6CmFvSlFHrsKqY5VK7eMCvboFR4pX0o65KPY_Icb_DjUFWbRSfss44DjwvmoXuULeemKcKic9cbt8if9u0ysOqR3IpKjv1EZU95gAkWIX69lB2lYQr7UMYQfF_zfMMrb"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Numbers Section -->
+<section class="bg-primary text-on-primary py-24">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="mb-16 border-l-4 border-secondary pl-6">
+<h2 class="font-headline-md text-headline-md uppercase tracking-tight">Nossa Experiência</h2>
+<p class="text-on-primary/70 mt-2">Impacto mensurável através de décadas de liderança.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24">
+<div class="flex items-start gap-8 border-r border-on-primary/10 last:border-0">
+<div class="text-[80px] font-black tracking-tighter leading-none text-on-primary">2,400+</div>
+<div class="max-w-xs pt-4">
+<p class="text-body-md font-body-md text-on-primary/80">Projetos de alta complexidade completados com sucesso nos últimos cinco anos, transformando o cenário tecnológico global.</p>
+</div>
+</div>
+<div class="flex items-start gap-8">
+<div class="text-[80px] font-black tracking-tighter leading-none text-on-primary">500+</div>
+<div class="max-w-xs pt-4">
+<p class="text-body-md font-body-md text-on-primary/80">Parceiros globais e especialistas técnicos dedicados exclusivamente a resolver os desafios mais críticos dos nossos clientes.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Expertise Sectors (Bento Grid) -->
+<section class="py-32 bg-surface" id="sectors">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="max-w-3xl mb-20">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6">Setores de Expertise</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">
+                        Em uma indústria onde a inovação é simultaneamente uma oportunidade e uma ameaça, as empresas devem escalar rápido e pivotar ainda mais rápido. Nossos consultores servem os maiores conglomerados de tecnologia do mundo.
+                    </p>
+</div>
+<div class="bento-grid">
+<!-- Software -->
+<div class="bento-card bento-card-md-8 bg-white border border-outline-variant p-10 hover:border-primary transition-all group luxury-shadow">
+<div class="flex justify-between items-start mb-12">
+<span class="material-symbols-outlined text-[40px] text-primary" data-icon="terminal">terminal</span>
+<span class="text-label-sm font-label-sm text-outline group-hover:text-secondary transition-colors">01 / SOFTWARE</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Software &amp; SaaS</h3>
+<p class="text-on-surface-variant max-w-lg mb-8">Trazemos um conjunto integrado de capacidades para a indústria, abrangendo M&amp;A, estratégia de produto e aceleração de valor para modelos SaaS.</p>
+<a class="inline-flex items-center font-bold text-label-sm font-label-sm text-primary group-hover:text-secondary transition-colors uppercase tracking-widest gap-2" href="#">
+                            Explorar Soluções
+                            <span class="material-symbols-outlined">chevron_right</span>
+</a>
+</div>
+<!-- Hardware -->
+<div class="bento-card bento-card-md-4 bg-surface-container-low border border-outline-variant p-10 hover:border-primary transition-all group luxury-shadow">
+<div class="flex justify-between items-start mb-12">
+<span class="material-symbols-outlined text-[40px] text-primary" data-icon="memory">memory</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Hardware</h3>
+<p class="text-on-surface-variant mb-8">Navegue na ascensão da edge computing e IA com estratégias de semicondutores e hardware robustas.</p>
+<a class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform" href="#">arrow_forward</a>
+</div>
+<!-- AI -->
+<div class="bento-card bento-card-md-4 bg-primary text-on-primary p-10 group relative overflow-hidden">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-[40px] mb-12" data-icon="psychology">psychology</span>
+<h3 class="font-headline-md text-headline-md mb-4">IA &amp; Automação</h3>
+<p class="text-on-primary/80 mb-8">Harnessing generative AI to improve internal operations and achieve measurable results in scale.</p>
+</div>
+<div class="absolute bottom-0 right-0 opacity-10 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[180px]" data-icon="data_object" style="font-variation-settings: 'wght' 100;">data_object</span>
+</div>
+</div>
+<!-- Infrastructure -->
+<div class="bento-card bento-card-md-8 bg-white border border-outline-variant p-10 hover:border-primary transition-all group luxury-shadow">
+<div class="flex justify-between items-start mb-12">
+<span class="material-symbols-outlined text-[40px] text-primary" data-icon="lan">lan</span>
+<span class="text-label-sm font-label-sm text-outline">04 / INFRASTRUCTURE</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Infraestrutura Digital</h3>
+<p class="text-on-surface-variant max-w-lg mb-8">Massive build-outs of AI and fibre, expansion of Edge use cases, and adoption of multi-cloud architectures to meet global demand.</p>
+<div class="flex gap-4">
+<span class="px-3 py-1 bg-surface text-label-sm font-label-sm text-primary border border-outline-variant">Cloud</span>
+<span class="px-3 py-1 bg-surface text-label-sm font-label-sm text-primary border border-outline-variant">5G</span>
+<span class="px-3 py-1 bg-surface text-label-sm font-label-sm text-primary border border-outline-variant">Security</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section: How We Help -->
+<section class="py-32 bg-white border-t border-outline-variant">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="flex flex-col md:flex-row gap-20 items-start">
+<div class="md:w-1/3 sticky top-32">
+<h2 class="font-display-lg text-headline-lg text-primary mb-8 border-b-4 border-secondary pb-4 inline-block">Como Ajudamos</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant leading-relaxed">
+                            Nós mostramos a líderes ambiciosos como dominar as inovações técnicas e de modelos de negócios que colocam suas empresas em um novo patamar de desempenho.
+                        </p>
+</div>
+<div class="md:w-2/3 space-y-16">
+<div class="grid gap-12">
+<div class="flex gap-8 group">
+<div class="text-secondary font-black text-headline-md opacity-20 group-hover:opacity-100 transition-opacity">01</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-3">Estratégia de IA &amp; Insights</h4>
+<p class="text-body-md text-on-surface-variant">Alinhamos seus investimentos em IA com sua estratégia core, construindo confiança no business case e estabelecendo governança robusta.</p>
+</div>
+</div>
+<div class="flex gap-8 group">
+<div class="text-secondary font-black text-headline-md opacity-20 group-hover:opacity-100 transition-opacity">02</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-3">Eficiência de Vendas &amp; Go-to-Market</h4>
+<p class="text-body-md text-on-surface-variant">Otimize a eficácia da sua força de vendas e redes de parceiros para garantir resultados sustentáveis e crescimento acelerado.</p>
+</div>
+</div>
+<div class="flex gap-8 group">
+<div class="text-secondary font-black text-headline-md opacity-20 group-hover:opacity-100 transition-opacity">03</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-3">Transformação Digital Enterprise</h4>
+<p class="text-body-md text-on-surface-variant">Reenergize transformações estagnadas e alcance resultados de potencial total através de nossa metodologia comprovada.</p>
+</div>
+</div>
+<div class="flex gap-8 group">
+<div class="text-secondary font-black text-headline-md opacity-20 group-hover:opacity-100 transition-opacity">04</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary mb-3">M&amp;A &amp; Private Equity</h4>
+<p class="text-body-md text-on-surface-variant">Ajudamos líderes de mercado a planejar aquisições estratégicas e processos de R&amp;D para criar valor real de portfólio.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Form Section -->
+<section class="py-32 bg-surface-container-low relative overflow-hidden" id="contact">
+<div class="max-w-container-max mx-auto px-margin-desktop grid md:grid-cols-2 gap-20 relative z-10">
+<div>
+<h2 class="font-display-lg text-display-lg text-primary mb-8">Pronto para liderar o futuro?</h2>
+<p class="text-body-lg text-on-surface-variant mb-12 max-w-md">
+                        Junte-se à Bravvi Tec para transformar incerteza em oportunidade estratégica. Nossos especialistas estão prontos para conversar sobre seu próximo desafio.
+                    </p>
+<div class="space-y-6">
+<div class="flex items-center gap-4 text-primary font-bold">
+<span class="material-symbols-outlined">mail</span>
+                            consultancy@bravvitec.com
+                        </div>
+<div class="flex items-center gap-4 text-primary font-bold">
+<span class="material-symbols-outlined">location_on</span>
+                            Silicon Valley • London • São Paulo
+                        </div>
+</div>
+</div>
+<div class="bg-white p-12 luxury-shadow border border-outline-variant">
+<form class="space-y-6">
+<div class="grid grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-label-sm font-label-sm text-primary uppercase">Nome</label>
+<input class="w-full border-b border-outline focus:border-primary border-t-0 border-l-0 border-r-0 py-2 bg-transparent focus:ring-0" placeholder="Seu nome completo" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-label-sm font-label-sm text-primary uppercase">Email</label>
+<input class="w-full border-b border-outline focus:border-primary border-t-0 border-l-0 border-r-0 py-2 bg-transparent focus:ring-0" placeholder="seu@email.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-label-sm font-label-sm text-primary uppercase">Indústria</label>
+<select class="w-full border-b border-outline focus:border-primary border-t-0 border-l-0 border-r-0 py-2 bg-transparent focus:ring-0">
+<option>Technology</option>
+<option>Software</option>
+<option>Semiconductors</option>
+<option>Private Equity</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-label-sm font-label-sm text-primary uppercase">Mensagem</label>
+<textarea class="w-full border-b border-outline focus:border-primary border-t-0 border-l-0 border-r-0 py-2 bg-transparent focus:ring-0 resize-none" placeholder="Como podemos ajudar sua empresa?" rows="4"></textarea>
+</div>
+<button class="w-full bg-secondary text-on-secondary py-4 font-bold text-label-sm font-label-sm uppercase tracking-widest hover:bg-secondary/90 transition-colors">
+                            Enviar Solicitação
+                        </button>
+</form>
+</div>
+</div>
+<!-- Decorative element -->
+<div class="absolute top-0 right-0 w-1/3 h-full bg-[#bc0000]/5 -skew-x-12 translate-x-1/2"></div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary text-on-primary border-t-2 border-secondary">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-20 max-w-container-max mx-auto">
+<div class="space-y-6">
+<div class="text-headline-md font-headline-md font-black text-on-primary uppercase tracking-tighter">Bravvi Tec</div>
+<p class="text-surface-variant opacity-80 text-body-md">
+                    Precise insights, decisive results. Leading technology firms toward a new horizon of performance.
+                </p>
+</div>
+<div class="space-y-6">
+<h5 class="text-label-sm font-label-sm text-secondary uppercase font-bold">Expertise</h5>
+<ul class="space-y-4">
+<li><a class="text-surface-variant opacity-80 hover:opacity-100 hover:underline transition-opacity" href="#">Software &amp; SaaS</a></li>
+<li><a class="text-surface-variant opacity-80 hover:opacity-100 hover:underline transition-opacity" href="#">AI Strategy</a></li>
+<li><a class="text-surface-variant opacity-80 hover:opacity-100 hover:underline transition-opacity" href="#">Infrastructure</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h5 class="text-label-sm font-label-sm text-secondary uppercase font-bold">Company</h5>
+<ul class="space-y-4">
+<li><a class="text-surface-variant opacity-80 hover:opacity-100 hover:underline transition-opacity" href="#">Sustainability</a></li>
+<li><a class="text-surface-variant opacity-80 hover:opacity-100 hover:underline transition-opacity" href="#">Careers</a></li>
+<li><a class="text-surface-variant opacity-80 hover:opacity-100 hover:underline transition-opacity" href="#">Case Studies</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h5 class="text-label-sm font-label-sm text-secondary uppercase font-bold">Legal</h5>
+<ul class="space-y-4">
+<li><a class="text-surface-variant opacity-80 hover:opacity-100 hover:underline transition-opacity" href="#">Privacy Policy</a></li>
+<li><a class="text-surface-variant opacity-80 hover:opacity-100 hover:underline transition-opacity" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-on-primary/10 px-margin-desktop py-8 max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-label-sm font-label-sm opacity-60">© 2024 Bravvi Tec. All rights reserved. Precise insights, decisive results.</p>
+<div class="flex gap-6">
+<a class="opacity-60 hover:opacity-100 transition-opacity" href="#">LinkedIn</a>
+<a class="opacity-60 hover:opacity-100 transition-opacity" href="#">Twitter</a>
+<a class="opacity-60 hover:opacity-100 transition-opacity" href="#">Instagram</a>
+</div>
+</div>
+</footer>
+<!-- Floating Contact FAB -->
+<a class="fixed bottom-8 right-8 bg-secondary text-on-secondary w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform z-40 group" href="#contact">
+<span class="material-symbols-outlined text-[28px] group-hover:rotate-12 transition-transform">chat</span>
+</a>
+<script>
+        // Simple intersection observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+    </script>
+</body></html>
