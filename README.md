@@ -34,8 +34,8 @@ O projeto segue a seguinte estrutura profissional de pastas:
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/Fabricio-O-S/Bravvi_Leadpages.git
-cd Bravvi_Leadpages
+git clone https://github.com/Fabricio-O-S/Bravvi_Landingpage_tec.git
+cd Bravvi_Landingpage_tec
 ```
 
 ### 2. Configurar o Ambiente Virtual (.venv)

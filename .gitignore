@@ -23,3 +23,6 @@ logs/*.log
 .vscode/
 .idea/
 .gemini/
+
+# Modelos de Referência
+Modelo Stick/
