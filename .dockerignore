@@ -1,0 +1,28 @@
+# Versionamento
+.git
+.gitignore
+
+# Ambiente virtual local
+.venv
+venv
+ENV/
+ENV_DIR/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de dados locais e logs
+logs/*.log
+instance/
+*.db
+*.sqlite3
+
+# Arquivos de configuração locais e sensíveis
+.env
+
+# Arquivos temporários de teste
+test_result.txt
+test_result_utf8.txt
